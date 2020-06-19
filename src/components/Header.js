@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+// import logo from "../assets/logo.svg";
 import CartLink from "./Cart/CartLink";
 import { UserContext } from "../context/user";
 import LoginLink from "./LoginLink";
-import { CartContext } from "../context/cart";
+// import { CartContext } from "../context/cart";
 import { GiTechnoHeart } from "react-icons/gi";
 
 export default function Header() {
-  const { user, userLogout } = React.useContext(UserContext);
-  const { clearCart } = React.useContext(CartContext);
+  const { user } = React.useContext(UserContext);
+  // const { clearCart } = React.useContext(CartContext);
   return (
     <header className="header">
       {/* <img src={logo} alt="vintage tech logo" className="logo" /> */}

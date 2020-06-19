@@ -1,4 +1,4 @@
-import url from "./URL";
+// import url from "./URL";
 
 //flatten
 export function flattenProducts(data) {

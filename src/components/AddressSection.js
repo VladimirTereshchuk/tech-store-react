@@ -1,6 +1,6 @@
 import React from "react";
-import { CardElement } from "react-stripe-elements";
-import { Row, Col, Input } from "reactstrap";
+// import { CardElement } from "react-stripe-elements";
+import { Col } from "reactstrap";
 
 const AddressSection = ({ handleChange, setName }) => {
   return (

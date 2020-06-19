@@ -22,7 +22,7 @@ function Checkout(props) {
   const isEmpty = !name || alert.show;
 
   const handleChange = (event) => {
-    const name = event.target.name;
+    // const name = event.target.name;
     // setName({ [name]: event.target.value });
   };
 

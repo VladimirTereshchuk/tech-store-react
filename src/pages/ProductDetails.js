@@ -7,6 +7,7 @@ import Loading from "../components/Loading";
 export default function ProductDetails() {
   const history = useHistory();
   const { id } = useParams();
+  console.log("params", useParams());
 
   const { products } = React.useContext(ProductContext);
   const { addToCart } = React.useContext(CartContext);

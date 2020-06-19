@@ -11,13 +11,14 @@ import ProductDetails from "./pages/ProductDetails";
 import Header from "./components/Header";
 import Alert from "./components/Alert";
 import PrivateRoute from "./components/PrivateRoute";
+import ScrollButton from "./components/ScrollButton";
 
 export default function App() {
   return (
     <Router>
       <Alert />
       <Header />
-
+      <ScrollButton />
       <Switch>
         <Route exact path="/">
           <Home />

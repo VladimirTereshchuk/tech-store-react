@@ -785,13 +785,16 @@ Filters Section
 }
 .filters-form select {
   background: transparent;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border-color: var(--mainBlack);
+  color: rgb(78, 78, 78);
   border-width: 0.5px;
+  border-radius: var(--mainBorderRadius);
 }
 .filters-form input[type="checkbox"] {
   margin-right: 0.5rem;
 }
+
 .price-group p {
   margin-bottom: 0.6rem;
   text-transform: capitalize;
@@ -816,4 +819,9 @@ Filters Section
   margin-top: 8rem;
   font-size: 1.1rem;
   padding: 0 2rem;
+}
+.sort_by {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: auto;
 }
